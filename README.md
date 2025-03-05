@@ -1,7 +1,9 @@
 <p align="center">
- <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Big_data.svg" height="200" width="250">  
- <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IoT-Smart-City.svg" height="200" width="250"> 
- <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Supply_chain.svg" height="200" width="250">
+  <img src="https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2018/03/Blogmain.jpg" height="150" width="200">  
+  <img src="https://img.freepik.com/vetores-gratis/conceito-de-transformacao-digital-de-vetor-de-fundo-de-microchip-de-tecnologia-ai_53876-112222.jpg" height="150" width="200">
+  <br> 
+  <img src="https://blog.bismart.com/hubfs/20190903-MachineLearning.jpg" height="150" width="200">
+  <img src="https://beecrowd.com/wp-content/uploads/2024/04/2022-07-19-Melhores-cursos-de-Python.jpg" height="150" width="200">
 </p>
 
 <h1 align="center"> MSc IoT Big Data Logistics Analysis</h1>
