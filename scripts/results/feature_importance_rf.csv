@@ -1,0 +1,9 @@
+Feature,Importance
+vehicle_gps_longitude,0.16862034017078073
+warehouse_inventory_level,0.15162213557875218
+traffic_congestion_level,0.1437932199430731
+id,0.1281140562428806
+handling_equipment_efficiency,0.12419959842504105
+vehicle_gps_latitude,0.11894476728653117
+eta_variation_hours,0.11764705882352941
+loading_unloading_time,0.047058823529411764
