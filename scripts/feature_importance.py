@@ -2,7 +2,7 @@
 feature_importance.py
 ------------------------
 Author: Jennifer Farias Rodrigues
-Date: 05/03/2025
+Date: 17/03/2025
 Description: This script computes feature importance for fuel consumption prediction models.
 
 Structure:
