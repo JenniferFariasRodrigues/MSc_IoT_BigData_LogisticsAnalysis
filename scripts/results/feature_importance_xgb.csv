@@ -1,0 +1,9 @@
+Feature,Importance
+id,1.0
+vehicle_gps_latitude,0.0
+vehicle_gps_longitude,0.0
+eta_variation_hours,0.0
+traffic_congestion_level,0.0
+warehouse_inventory_level,0.0
+loading_unloading_time,0.0
+handling_equipment_efficiency,0.0
