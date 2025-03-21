@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.evaluation.RegressionEvaluator","timestamp":1742510700547,"sparkVersion":"3.5.5","uid":"RegressionEvaluator_a59dcbc0fc0d","paramMap":{"labelCol":"fuel_consumption_rate","metricName":"mae"},"defaultParamMap":{"labelCol":"label","metricName":"rmse","predictionCol":"prediction","throughOrigin":false}}
