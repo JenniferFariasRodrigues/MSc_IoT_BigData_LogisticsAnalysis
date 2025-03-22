@@ -1,4 +1,0 @@
-# Ignorar arquivos de credenciais e ambientes virtuais
-.env
-.venv/
-__pycache__/
