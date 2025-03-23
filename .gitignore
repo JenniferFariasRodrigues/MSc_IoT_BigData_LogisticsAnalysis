@@ -1,0 +1,14 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos Spark e temporários
+*.parquet
+*.crc
+
+# Gráficos e resultados
+*.png

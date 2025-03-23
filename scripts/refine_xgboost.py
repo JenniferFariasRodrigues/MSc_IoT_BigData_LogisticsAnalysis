@@ -86,5 +86,9 @@ sns.barplot(y=feature_df['Feature'], x=feature_df['Importance'], palette='Blues_
 plt.xlabel("Importance")
 plt.ylabel("Feature")
 plt.title("Feature Importance - XGBoost (Refined)")
-plt.savefig("/home/jennifer/Documentos/Dissertação/spark/IoTLogisticsEnergyAnalysis/figures/feature_importance_xgboost_refined.png")  # Save refined figure
+plt.tight_layout()
+# Manjaro
+# plt.savefig("/home/jennifer/Documentos/Dissertação/spark/IoTLogisticsEnergyAnalysis/figures/feature_importance_xgboost_refined.png")  # Save refined figure
+# Windows
+plt.savefig("C:/Users/Jennifer/Dissertacao/MSc_IoT_BigData_LogisticsAnalysis/figures/refine_xgboost/feature_importance_xgboost_refined.png")
 plt.show()
