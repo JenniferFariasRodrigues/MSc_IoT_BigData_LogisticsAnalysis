@@ -11,13 +11,10 @@ It is based on train_model.py, with the key difference being the removal of one
 feature (warehouse_inventory_level) to analyze its impact on model performance.
 """
 
-import os
-import pandas as pd
-import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from xgboost import XGBRegressor
-from scripts.load_data import load_data
+from scripts.preprocessing.load_data import load_data
 import numpy as np
 
 # Load processed data from MariaDB (same as in train_model.py)
