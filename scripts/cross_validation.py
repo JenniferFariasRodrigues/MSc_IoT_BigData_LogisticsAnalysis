@@ -18,7 +18,7 @@ from pyspark.ml.evaluation import RegressionEvaluator
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
 from pyspark.ml.regression import RandomForestRegressor, GBTRegressor
 from pyspark.ml.feature import VectorAssembler
-from scripts.load_data import load_data
+from scripts.preprocessing.load_data import load_data
 import pandas as pd
 
 # Initialize Spark session

@@ -23,7 +23,7 @@ import pickle
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scripts.load_data import load_data  # Importing the function to load data
+from scripts.preprocessing.load_data import load_data  # Importing the function to load data
 
 # Directory where trained models are stored
 MODEL_DIR = "models/"

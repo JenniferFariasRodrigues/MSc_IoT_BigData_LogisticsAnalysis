@@ -25,7 +25,7 @@ Structure:
 import pickle
 import pandas as pd
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-from scripts.load_data import load_data  # Import processed data
+from scripts.preprocessing.load_data import load_data  # Import processed data
 import numpy as np
 
 # Load processed data

@@ -15,9 +15,7 @@ Usage:
 python IoTAnalisys.py
 """
 
-import pandas as pd
-import os
-from scripts.load_data import load_data
+from scripts.preprocessing.load_data import load_data
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
