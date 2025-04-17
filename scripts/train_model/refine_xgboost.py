@@ -81,14 +81,29 @@ feature_names = X.columns
 feature_df = pd.DataFrame({'Feature': feature_names, 'Importance': feature_importance})
 feature_df = feature_df.sort_values(by='Importance', ascending=False)
 
-plt.figure(figsize=(10, 5))
-sns.barplot(y=feature_df['Feature'], x=feature_df['Importance'], palette='Blues_r')
-plt.xlabel("Importance")
-plt.ylabel("Feature")
-plt.title("Feature Importance - XGBoost (Refined)")
-plt.tight_layout()
+# plt.figure(figsize=(10, 5))
+# sns.barplot(y=feature_df['Feature'], x=feature_df['Importance'], palette='Blues_r')
+# plt.xlabel("Importance")
+# plt.ylabel("Feature")
+# plt.title("Feature Importance - XGBoost (Refined)")
+# plt.tight_layout()
+
+plt.figure(figsize=(12, 6))  # aumentar o tamanho da figura
+
+sns.barplot(y=feature_df['Feature'], x=feature_df['Importance'], hue=feature_df['Feature'], palette='Blues_r', legend=False)
+
+# Aumentar tamanho das fontes e padronizar com o artigo
+plt.title("Feature Importance - XGBoost (Refined)", fontsize=26, fontweight='normal')  # sem negrito
+plt.xlabel("Importance Score", fontsize=22)
+plt.ylabel("Feature", fontsize=22)
+plt.xticks(fontsize=24)
+plt.yticks(fontsize=24)
+
+# Ajustar espaçamento para evitar cortes e centralizar
+plt.subplots_adjust(left=0.45, right=0.95, top=0.9, bottom=0.2)
+
 # Manjaro
 # plt.savefig("/home/jennifer/Documentos/Dissertação/spark/IoTLogisticsEnergyAnalysis/figures/feature_importance_xgboost_refined.png")  # Save refined figure
 # Windows
-plt.savefig("C:/Users/Jennifer/Dissertacao/MSc_IoT_BigData_LogisticsAnalysis/figures/refine_xgboost/feature_importance_xgboost_refined.png")
+plt.savefig("C:/Users/Jennifer/Dissertacao/MSc_IoT_BigData_LogisticsAnalysis/figures/refine_xgboost/feature_importance_xgboost_refined_II.png")
 plt.show()
